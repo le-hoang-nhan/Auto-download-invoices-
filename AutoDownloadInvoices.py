@@ -9,7 +9,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("--enable-javascript")
 
 #create driver
-driver = webdriver.Chrome(executable_path=r"C:\NhanLeDocomoDigital\Selenium/chromedriver", options=options)
+driver = webdriver.Chrome(executable_path=r"C:\...../chromedriver", options=options)
 
 #access database website
 driver.get("https://........org/")
